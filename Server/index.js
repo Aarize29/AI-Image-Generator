@@ -17,7 +17,7 @@ app.use('/api/v1/post', postRoutes);
 app.use('/api/v1/dalle', dalleRoutes);
 
 app.get('/', async(req, res) => {
-    res.send('Hello Fatima!');
+    res.send('Hello World!');
 })
 
 

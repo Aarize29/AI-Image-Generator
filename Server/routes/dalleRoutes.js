@@ -16,7 +16,7 @@ const openai=new OpenAIApi(configuration);
 router.route('/').get((req,res)=>{
 
    try{
-    res.send('Hello from Dalle');
+    res.send('Hello from Aarize');
    }catch(err){
        console.log(err);
    }
